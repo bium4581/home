@@ -27,7 +27,7 @@ function renderQuote() {
 }
 
 function renderRandomImage() {
-    let imageList = ["1", "2", "3", "4", "5"];
+    let imageList = [];
     for (i = 0; i < 5; i++) {
       imageList.push(i);
     }
