@@ -1,6 +1,7 @@
 $(document).ready(function () {
     renderCurrentTime();
     renderQuote();
+     renderRandomImage()
 });
 
 
@@ -26,7 +27,7 @@ function renderQuote() {
 }
 
 function renderRandomImage() {
-    let imageList = [];
+    let imageList = ["1", "2", "3", "4", "5"];
     for (i = 0; i < 5; i++) {
       imageList.push(i);
     }
