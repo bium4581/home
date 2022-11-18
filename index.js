@@ -1,7 +1,7 @@
 $(document).ready(function () {
     renderCurrentTime();
     renderQuote();
-     renderRandomImage()
+    renderRandomImage()
 });
 
 
